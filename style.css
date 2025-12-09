@@ -70,6 +70,20 @@ button {
     cursor: pointer;
 }
 
+.copy-btn {
+    background: none;
+    font-size: smaller;
+    font-weight: 200;
+    text-decoration: underline;
+    padding: 0;
+    margin: 1em 0 0 .5em;
+    cursor: pointer;
+}
+
+.copy-btn:hover {
+    color: #34D399;
+}
+
 .password-length {
     display: flex;
     gap: .6em;
@@ -115,6 +129,9 @@ label {
         gap: 1em;
     }
     input {
-    width: 30px;
+        width: 30px;
+    }
+    .copy-btn {
+        font-size: small;
     } 
 }

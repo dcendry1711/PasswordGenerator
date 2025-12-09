@@ -17,13 +17,19 @@
                 <p id="subtitle">Never use an insecure password again</p>
                 <div class="password-length">
                     <label for="password-length-input">Length of password (1-15 characters)</label>
-                    <input id="password-length-input" type="number" min="1" max="15" />
+                    <input id="password-length-input" type="number" min="1" max="15" required/>
                 </div>
                 <button id="gen-pass-btn">Generate passwords</button>
             </section>
             <section class="bottom-window">
-                <p class="password-fields" id="pass-field1"></p>
-                <p class="password-fields" id="pass-field2"></p>
+                <div>
+                    <p class="password-fields" id="pass-field1"></p>
+                    <button class="copy-btn" id="copy-pass1">Copy password</button>
+                </div>
+                <div>
+                    <p class="password-fields" id="pass-field2"></p>
+                    <button class="copy-btn" id="copy-pass2">Copy password</button>
+                </div>
             </section>
         </section>
     </main>
