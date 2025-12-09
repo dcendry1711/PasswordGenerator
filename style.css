@@ -67,3 +67,32 @@ button {
     font-weight: 600;
     cursor: pointer;
 }
+
+@media (min-width: 768px){
+    body {
+        background: #1F2937;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+    }
+    .main-content {
+        width: 550px;
+        height: 550px;
+    }
+    h1 {
+        font-size: 3.4rem;
+    }
+    #subtitle {
+    font-size: 1.2rem;
+    padding: 1.5em 0 2.5em;
+    }   
+    button {
+        font-size: 1.1rem;
+    }
+    .password-fields {
+        width: 235px;
+        height: 50px;
+        font-size: 1.1rem;
+    } 
+}
