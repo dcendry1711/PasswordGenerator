@@ -4,11 +4,6 @@
     font-family: "Inter", sans-serif;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-}
-
 .main-content {
     width: 100vw;
     height: 100vh;
