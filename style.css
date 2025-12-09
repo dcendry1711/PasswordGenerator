@@ -5,7 +5,7 @@
 }
 
 .main-content {
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     margin: 0 auto;
     background: #1F2937;
@@ -14,6 +14,7 @@
     flex-direction: column;
     align-items: start;
     gap: 1em;
+    border: 5px solid #FFFF;
 }
 
 h1 {
