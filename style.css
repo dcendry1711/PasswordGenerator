@@ -7,14 +7,12 @@
 .main-content {
     width: 99vw;
     height: 100vh;
-    margin: 0 auto;
     background: #1F2937;
     padding: 8em 2em 0;
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 1em;
-    border: 5px solid #FFFF;
 }
 
 h1 {
