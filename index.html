@@ -16,8 +16,18 @@
                 <h1><span>Generate a</span><br/> random password</h1>
                 <p id="subtitle">Never use an insecure password again</p>
                 <div class="password-length">
-                    <label for="password-length-input">Length of password (1-15 characters)</label>
-                    <input id="password-length-input" type="number" min="1" max="15" required/>
+                    <div>
+                        <label for="password-length-input">Length of password (1-15 characters)</label>
+                        <input id="password-length-input" type="number" min="1" max="15" value="1" />
+                    </div>
+                    <div>
+                        <label for="password-include-symbols">Include symbols in password?</label>
+                        <input id="password-include-symbols" type="checkbox" />
+                    </div>
+                    <div>
+                        <label for="password-include-numbers">Include numbers in password?</label>
+                        <input id="password-include-numbers" type="checkbox" />
+                    </div>
                 </div>
                 <button id="gen-pass-btn">Generate passwords</button>
             </section>
