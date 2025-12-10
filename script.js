@@ -11,7 +11,6 @@ const numberEl = document.getElementById('password-include-numbers')
 
 genBtn.addEventListener('click',generatePassword)
 
-
 copy1PassBtn.addEventListener('click', ()=>{
     const pass1ToCopy = pass1.textContent
     navigator.clipboard.writeText(pass1ToCopy)
